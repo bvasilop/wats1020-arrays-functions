@@ -1,12 +1,3 @@
-// This portion of the script is meant to call and display the result of your Function.
-// You do not need to change the following lines, but you may change them if you 
-// are experimenting further or pursuing stretch goals.
-var originalText = "There are two hard things in Computer Science: Cach invalidation, naming things, and off-by-one errors.";
-var wordLimit = 8;
-var shortText = truncateWords(originalText, wordLimit);
-console.log('originalText: ' + originalText);
-console.log('shortText: ' + shortText);
-
 // TODO: Create a Function called truncateWords() that accepts two arguments: 
 // This is the file where you will write the Truncate Words function and related code.
 // longText (a String with several words in it)
@@ -61,23 +52,15 @@ function truncateWords(longText, numWords) {
   
 }
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+// This portion of the script is meant to call and display the result of your Function.
+// You do not need to change the following lines, but you may change them if you 
+// are experimenting further or pursuing stretch goals.
+var originalText = "There are two hard things in Computer Science: Cach invalidation, naming things, and off-by-one errors.";
+var wordLimit = 8;
+var shortText = truncateWords(originalText, wordLimit);
+console.log('originalText: ' + originalText);
+console.log('shortText: ' + shortText);
+
   
   
   
