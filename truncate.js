@@ -101,7 +101,7 @@ function truncateCharacters(longText, numChar){
   
   var removeCharNum = charArrayLength - numChar;
   
-  console.log("Remove " + removeCharNum + " Characters");
+  console.log("Number of characters to remove: " + removeCharNum);
   
 // Create new array with removed character numbers (removeCharNum)
   
