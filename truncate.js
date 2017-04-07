@@ -37,7 +37,9 @@ function truncateWords(longText, numWords) {
   
   removeWords.push('...');
   
- /*---- Stretch goals for modifying function to return object ----
+  
+/*---- Stretch goals for modifying function to return object 
+
  
   var newText = {
     originalText: longText,
@@ -47,7 +49,6 @@ function truncateWords(longText, numWords) {
   };
   return newText;------*/
     
-  
   
   
 // 6. Use the join() function to convert the Array back into a String
@@ -60,10 +61,8 @@ function truncateWords(longText, numWords) {
   
   
   return shortText;
-  
-  
-}
 
+}
 
 // This portion of the script is meant to call and display the result of your Function.
 // You do not need to change the following lines, but you may change them if you 
@@ -80,7 +79,7 @@ function truncateWords(longText, numWords) {
   console.log('shortText: ' + shortText);
 
 
-//Stretch goals for creating truncateCharacters function and repeating with characters instead of words
+/*----Stretch goals for creating truncateCharacters function and repeating with characters instead of words----*/
 
 // Create variable for character limit (charlimit)
 
