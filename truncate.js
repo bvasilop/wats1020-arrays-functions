@@ -114,6 +114,7 @@ function truncateCharacters(longText, numChar){
 // Create variable for new string (newString)
   
   var newString = characterArray.join("");
+  
 // Return new string
   
   return newString;  
