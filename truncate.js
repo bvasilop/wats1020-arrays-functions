@@ -126,7 +126,7 @@ function truncateCharacters(longText, numChar){
 
 // Final short text result using characters
 
-  console.log('Shortened Text using truncateCharacters: ' + shortCharactersText);
+  console.log('Shortened text using truncateCharacters: ' + shortCharactersText);
 
 
   
